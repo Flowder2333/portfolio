@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>სატესტო</title>
+    <link rel="stylesheet" href="../sait/css/main.css">
+
+</head>
+<body>
+	<style>
+		/* KEYFRAMES */
+
+		.kont{
+			animation: animacia 1s;
+		}
+		@keyframes animacia{
+			from{
+				opacity:0;
+				transform:translateX(600px);
+			}
+			to{
+				opacity:1;
+				transform:translateX(0px);
+			}
+		}
+
+	/* IDS */
+	    #changepos{
+	    	position:relative;
+	    	top:-250px;
+	    }
+	    #readmore{
+	    	position:relative;
+	    	top:-260px;
+	    	right:400px;
+	    	text-decoration-line:none;
+	    	border-radius:20px;
+	    }
+	    #movetext{
+	    	position:relative;
+	    	right:395px;
+	    }
+		#wholepage{
+			width:500px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		#hello{
+			position:relative;
+			left:20px;
+		}
+		#hellos{
+             position:relative;
+             left:100px;
+		}
+    /* Body Visual */
+	body{
+		background-image:url('../sait/images/klsd.jpg');
+        min-height: 100%;
+        min-width: 1024px;
+        background-size:1500px;
+        background-repeat: no-repeat;
+	
+
+
+	}
+	/* Classes */
+	.line{
+		 border-bottom: 2px solid pink;
+		 width:700px;
+         height:3px;
+         background-image:url('https://thelogocompany.net/wp-content/uploads/2016/05/gradient.jpg');
+         cursor:default;
+         position:relative;
+         border-radius:100px;
+
+    
+    }
+    
+	.movepic{
+		position:relative;
+		left:280px;
+		top: -200px;
+		right:0px;
+		bottom:0px;
+		cursor:default;
+		opacity:1;
+		transition:1s;
+	}
+	.movepic:hover{
+		transform:translateX(20px);
+
+	}
+	.joint{
+		text-align:center;
+		font-family:monospace;
+		font-size:35px;
+		text-decoration-line:none;
+		text-decoration-color:none;
+		text-decoration:none;
+		color:white;
+	}
+    .transp{
+    	position:relative;
+    	border-style:solid;
+    	border-radius:50px;
+    	background-color:none;
+    	opacity:0.6;
+    	cursor:pointer;
+    	border:none;
+    	overflow:hidden;
+    	transition:1s;
+
+    }
+    .transp:hover{
+    	transform:translate(30px);
+    	opacity:1;
+    	transform-style: preserve-3d;
+    	
+    }
+
+	</style>
+	
+	<header>
+		<div>
+
+	<div id="hello"class="transp"> <a href="index.html"></a> <a href="index.html" class="joint">Roma's Portfolio  </a> </div>
+	
+</div class="wholepage"> <hr>
+    <div style="text-align:center; text-decoration:none">
+	<a style="text-decoration-line:none"class="btn btn1 container" href="index.html">Main Page</a>
+	<a style="text-decoration-line:none" class="btn btn1 container">Contact</a>
+	<a style="text-decoration-line:none" class="btn btn1 container">Projects</a>
+	<a style="text-decoration-line:none" class="btn btn1 container">Subscribe</a>
+	</div> <br><br><br>
+
+    </header>
+
+    <main>
+    	<div id="wholepage">
+    	<div id="movetext"style="color:white; font-family:monospace; font-size:large">
+    		
+    		<container> <h1 style="color:#64e873;text-shadow:2px 2px"class="line kont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello!</h1> <br>
+    		<p style="text-align:left font-size:x-large;">I'm Roma. A Freelance Front End Developer based in &nbsp; Georgia. &nbsp;&nbsp; I specialise in creating interactive experiences and functional interfaces.I have worked on a multitude of web and print-baseds projects for a range of clients providing Web Design (Illustrator,Photoshop,Kdenlive) and Development(HTML,CSS,MYSQL,Wordpress).</p> 
+    	</div>
+    	<div class="movepic suratis"> <img style="max-width:100%;border-radius:50%" width="250px" height="250px"  src="../sait/images/face.jpg" alt="პროფილის ფოტოs"></div> 
+    	<div class="changepos line">
+    	<button id="readmore "class="btn btn3">Read More</button>
+    	</div>
+        </div>
+    </container>
+    	
+
+    </main>
+
+
+    <footer>
+    	<section>
+    	<p style="color:white; font-size:xx-large;">Contact Me</ps>
+    	<label for="maili">
+    	<input type="email" name="maili" placeholder="Enter Email">
+    	</section>
+
+    </footer>
+
+
+</body>
+
+
+
+
+
+</html
