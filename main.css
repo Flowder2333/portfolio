@@ -1,0 +1,236 @@
+
+<style>
+			   /* KEYFRAMES */
+
+
+  /* IDS */
+      #changepos{
+        position:relative;
+        top:-250px;
+      }
+      #readmore{
+        position:relative;
+        top:-260px;
+        right:380px;
+        text-decoration-line:none;
+        border-radius:20px;
+      }
+      #movetext{
+        position:relative;
+        right:395px;
+      }
+    #wholepage{
+      width:500px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    #hello{
+      position:relative;
+      left:20px;
+    }
+    #hellos{
+             position:relative;
+             left:100px;
+    }
+    /* Body Visual */
+    input{
+      width:50%;
+      overflow:hidden;
+    }
+    main{
+        background-color:lightgray;
+        background-size:cover;
+        min-height: 100%;
+        min-width:100%;
+        background-size:1550px 800px;
+        background-repeat: no-repeat;
+        overflow-x:hidden;
+    }
+
+  body{
+        background-image:url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&w=1000&q=80');
+        min-height: 100%;
+        min-width:100%;
+        background-size:1550px 800px;
+        background-repeat: no-repeat;
+        overflow-wrap:hidden;
+        overflow-x:hidden;
+
+        
+  
+
+
+  }
+  div{
+    width:100%;
+  }
+  /* Classes */
+        .typewriter {
+    font-family: Courier, monospace;
+  display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+     }
+  .forms{
+    position:relative;
+    left:50px;
+  }
+  .lineh{
+         border-bottom: 4px solid lightgray;
+         width:1400px;
+         height:3px;
+         cursor:default;
+         position:relative;
+         border-radius:100px;
+         top:-11px;
+      }
+  .lines{
+     border-bottom: 2px solid none;
+     width:1000px;
+         height:3px;
+         background-image:url('https://thelogocompany.net/wp-content/uploads/2016/05/gradient.jpg');
+         cursor:default;
+         position:relative;
+         border-radius:100px;
+         top:-195px;
+         right:400px;
+  }
+  .line{
+     border-bottom: 2px solid pink;
+     width:1000px;
+         height:3px;
+         background-image:url('https://thelogocompany.net/wp-content/uploads/2016/05/gradient.jpg');
+         cursor:default;
+         position:relative;
+         border-radius:100px;
+
+    
+    }
+  .movepic{
+    position:relative;
+    left:270px;
+    top: -200px;
+    right:0px;
+    bottom:0px;
+    cursor:default;
+    opacity:1;
+    transition:1s;
+  }
+  .movepic:hover{
+    transform:translateX(20px);
+
+  }
+  .joint{
+    font-family:monospace;
+    font-size:10px;
+    text-decoration-line:none;
+    text-decoration-color:none;
+    text-decoration:none;
+    color:white;
+  }
+    .transp{
+      position:relative;
+      border-style:solid;
+      border-radius:50px;
+      background-color:none;
+      opacity:0.6;
+      cursor:pointer;
+      border:none;
+      overflow:hidden;
+      transition:1s;
+      border-image-width: 5px;
+
+    }
+    .transp:hover{
+      transform:translate(30px);
+      opacity:1;
+      transform-style: preserve-3d;
+      
+    }
+.container{
+  text-align: center;
+  margin-top: 360px;
+}
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family:monospace;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2{
+  color: #3498db;
+}
+.btn3,.btn4{
+  color: #fff;
+}
+.btn1:hover,.btn2:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover{
+  color: #3498db;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+
+		</style>
